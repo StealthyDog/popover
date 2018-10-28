@@ -1,0 +1,4 @@
+.box {margin:10px auto; position:relative;display:inline-block;}
+.box > button {}
+.float {margin-left:10px;position:absolute;top:0;left:100%; border:1px solid #8da6ce; white-space:nowrap;background:#8da6ce;padding:10px;display:none;}
+.float::before {position:absolute;right:100%;top:0;border:10px solid transparent;border-right-color:#8da6ce;content:'';}
