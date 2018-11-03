@@ -1,5 +1,5 @@
 let e=true
-$('#btn').on('click',function(){
+$(btn).on('click',function(){
    console.log(1)
    if(e){
      $('#float').show()
