@@ -1,6 +1,7 @@
 let e=true
-   console.log(1)
+
 $('#btn').on('click',function(){
+      console.log(1)
    if(e){
      $('#float').show()
    }else{
