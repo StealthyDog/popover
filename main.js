@@ -1,17 +1,17 @@
-let e=true
+let event=true
 
 $('#btn').on('click',function(){
       console.log(1)
-   if(e){
+   if(event){
      $('#float').show()
    }else{
      $('#float').hide()
    }
   $(document).one('click',function(){
    $('#float').hide()
-   e = true
+   event = true
 }) 
-   e = !e
+   event = !event
 })
 
 $('#box').on('click',function(a){
