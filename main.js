@@ -5,13 +5,13 @@ $('#btn').on('click',function(){
    }else{
      $('#float').hide()
    }
+  $(document).one('click',function(){
+   $('#float').hide()
+   event = true
+}) 
    event = !event
 })
 
 $('#box').on('click',function(e){
    e.stopPropagation()
 })
-$(document).on('click',function(){
-   $('#float').hide()
-   event = true
-}) 
