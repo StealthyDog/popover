@@ -1,7 +1,6 @@
 let event=true
 
 $('#btn').on('click',function(){
-      console.log(1)
    if(event){
      $('#float').show()
    }else{
